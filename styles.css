@@ -1,1 +1,50 @@
 /*  your css code here. If applicable */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 900px;
+    margin: auto;
+}
+
+.main-title{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.blog-title{
+    color: purple;
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.post{
+    margin-bottom: 40px;
+}
+
+.post img{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.post h2{
+    margin: 10px 0 5px 0;
+}
+
+.post h2 a{
+    color: blue;
+    text-decoration: underline;
+}
+
+.post p{
+    color: blue;
+    max-width: 600px;
+    margin-top: 5px;
+}
